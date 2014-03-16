@@ -5,6 +5,7 @@ import com.example.view.ViewActivity;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -32,10 +33,10 @@ public class MainActivity extends Activity {
 				if(password.equals("123456"))
 				{
 					Intent intent=new Intent(MainActivity.this,ViewActivity.class);
-					startActivity(intent);
+					//startActivity(intent);
 				}
 				else{
-					System.out.println("login fial");
+					Log.e("hello", "login fail");
 				}
 			}
 			
