@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ScrollView
+	     xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/scrollView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+   
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/b8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/a5" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="记录健康每一步"
+            android:textColor="@color/snow"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.00" >
+         <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:src="@drawable/main_icon" />
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:padding="20dp"
+           
+             android:textColor="@color/yellow"
+             android:textStyle="bold"
+             android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+      
+      >
+
+        <TextView
+            android:id="@+id/scroll_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="晚上睡觉15分钟前散步，缓行半小时，可收到较好的镇静效果              
+            			散步有利于精神放松，减少忧郁与压抑情绪，并可以提高人体免疫力
+            			散步要注意姿势，否则也会感到疲劳。抬头挺胸，迈大步，双臂要随步行的节奏有力地前后交替摆动，路线要直
+            			散步是一种最佳的锻炼方式，同时又是最安全的活动。但应注意避免在充满有害物质的晨雾中锻炼，饭后休息40分钟再步行，步行的速度以止步后脉搏跳动每分钟100次左右为宜"
+            android:textSize="15sp"
+            android:textColor="@color/lemonchiffon" 
+            android:layout_marginLeft="20dip"
+            android:scrollbars="horizontal"
+        	android:singleLine="true"
+        	android:ellipsize="marquee" 
+        	android:marqueeRepeatLimit="marquee_forever" 
+        	android:focusable="true" 
+        	android:focusableInTouchMode="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginLeft="28.0dip"
+        android:layout_marginRight="28.0dip"
+        android:layout_marginTop="25dp"
+     
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_weight="1"
+            android:background="@drawable/c3"
+            
+        android:layout_marginRight="5.0dip"
+        
+        
+           >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="步数" 
+                android:paddingTop="2dp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+               
+                />
+
+            <TextView
+                android:id="@+id/tv_stepnumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0" 
+                android:maxLines="1"
+                android:textSize="25sp"
+                 android:layout_weight="1"
+                
+                 android:gravity="center"
+               
+                />
+
+        </LinearLayout>
+		
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_weight="1"
+            android:background="@drawable/c3"
+            
+        android:layout_marginRight="5.0dip"
+        
+        
+           >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="距离/米" 
+                android:paddingTop="2dp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+               
+                />
+
+            <TextView
+                android:id="@+id/tv_meters"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0" 
+                android:maxLines="1"
+                android:textSize="25sp"
+                 android:layout_weight="1"
+                 android:gravity="center"
+               
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginLeft="28.0dip"
+        android:layout_marginRight="28.0dip"
+        android:layout_marginTop="25dp"
+     
+        >
+
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_weight="1"
+            android:background="@drawable/c3"
+            
+        android:layout_marginRight="5.0dip"
+        
+        
+           >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="卡路里/千卡" 
+                android:paddingTop="2dp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+               
+                />
+
+            <TextView
+                android:id="@+id/tv_colouis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0" 
+                android:maxLines="1"
+                android:textSize="25sp"
+                 android:layout_weight="1"
+                 android:gravity="center"
+               
+                />
+
+        </LinearLayout>
+		
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_weight="1"
+            android:background="@drawable/c3"
+            
+        android:layout_marginRight="5.0dip"
+        
+        
+           >
+
+            <TextView
+                android:id="@+id/tv_goalnum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="目标:6000" 
+                android:paddingTop="2dp"
+                android:textSize="15sp"
+                android:layout_weight="2"
+               
+                />
+
+            <TextView
+                android:id="@+id/tv_goal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="0" 
+                android:maxLines="1"
+                android:textSize="25sp"
+                 android:layout_weight="1"
+                 android:gravity="center"
+               
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" 
+         android:layout_marginTop="45dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1" >
+
+             <Button
+                 android:id="@+id/start"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="开始"
+                 android:textSize="15sp"
+                 android:background="@drawable/button_image2"
+                 android:layout_marginLeft="40dp" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"  >
+
+             <Button
+                 android:id="@+id/button2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="暂停" 
+                 android:textSize="15sp"
+                 android:background="@drawable/button_image2"
+                 android:layout_marginLeft="15dp"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1" >
+
+             <Button
+                 android:id="@+id/button3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                  android:text="重置" 
+                  android:textSize="15sp"
+                  android:background="@drawable/button_image3"
+                 android:layout_marginLeft="15dp"/>
+
+         </LinearLayout>
+        
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+          android:layout_marginTop="30dp"
+         android:layout_alignParentBottom="true"
+          android:orientation="horizontal" 
+          
+         >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:layout_alignParentBottom="true"
+             android:layout_weight="1">
+
+             <Button
+                 android:id="@+id/history"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="历史记录" 
+             android:textSize="12sp"
+             android:paddingLeft="5dp"
+             android:paddingRight="5dp"
+               
+             android:background="@drawable/history"
+             
+             android:layout_marginLeft="20.0dip"
+        	android:layout_marginRight="20.0dip"
+        	   
+        	android:layout_marginBottom="5.0dip"
+        	
+        	
+             
+             />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+              android:layout_marginTop="10dp"
+               android:layout_alignParentBottom="true">
+
+            <Button
+                 android:id="@+id/assess"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="评估" 
+             android:textSize="12sp"
+             android:paddingLeft="5dp"
+             android:paddingRight="5dp"
+            
+             android:background="@drawable/history"
+              
+             android:layout_marginLeft="20.0dip"
+        	android:layout_marginRight="20.0dip"
+        	   
+        	android:layout_marginBottom="5.0dip"
+        	
+        	
+             
+             />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1" 
+              android:layout_marginTop="10dp"
+               android:layout_alignParentBottom="true">
+
+             <Button
+                 android:id="@+id/setting"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="设置" 
+                  android:textSize="12sp"
+             android:paddingLeft="5dp"
+             android:paddingRight="5dp"
+               
+             android:background="@drawable/history"
+             
+             android:layout_marginLeft="20.0dip"
+        	android:layout_marginRight="20.0dip"
+        	 
+        	android:layout_marginBottom="5.0dip"/>
+
+         </LinearLayout>
+       
+     </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+	  
+	</ScrollView>
