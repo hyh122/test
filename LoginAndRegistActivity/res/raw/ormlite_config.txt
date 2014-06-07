@@ -1,0 +1,32 @@
+#
+# generated on 2014/06/07 03:34:15
+#
+# --table-start--
+dataClass=domain.businessEntity.systemManagement.User
+tableName=T_User
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=userPhone
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=password
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=username
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=userProfessional
+# --field-end--
+# --field-start--
+fieldName=email
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
