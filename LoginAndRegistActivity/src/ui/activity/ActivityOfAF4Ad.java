@@ -24,7 +24,9 @@ import domain.businessEntity.systemManagement.User;
 public abstract class ActivityOfAF4Ad extends Activity {
 	// tag标记，用于输出调试信息
 	static String tag = "MyApplication";
-	
+	/**
+	 * 
+	 */
 	static User user=null;
 	
 
